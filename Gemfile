@@ -72,9 +72,9 @@ end
 
 group :heroku do
   gem 'unicorn', platform: :ruby
-  gem 'rails_12factor'
 end
 
+gem 'rails_12factor'
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
